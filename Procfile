@@ -1,1 +1,1 @@
-gunicorn get2lisbon:app
+gunicorn get2lisbon:app ; heroku ps:scale web=1
